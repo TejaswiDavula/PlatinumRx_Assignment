@@ -1,8 +1,8 @@
 string = input("Enter string: ")
-result = ""
+word = ""
 
 for char in string:
-    if char not in result:
-        result += char
+    if char not in word:
+        result += word
 
-print("Unique string:", result)
+print("Unique string:", word)
